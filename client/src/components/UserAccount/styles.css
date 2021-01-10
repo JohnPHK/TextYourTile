@@ -1,0 +1,45 @@
+.linkbtnContainer {
+	margin: 10px;
+}
+
+.backBtn {
+	float:right;
+	color: #0099A4;
+	height: 30px;
+	width: 150px;
+	margin-left: 10px;
+}
+
+.userLogOutBtn {		
+	float:right;
+	color: #0099A4;
+	height: 30px;
+	width: 50px;
+}
+
+.firstBox {
+	display:flex;
+	flex-direction: row;	
+}
+
+.columnFirst {
+	flex:1;
+	background-color: #2E3A42;
+	padding: 20px;
+	color: white;
+}
+
+.columnSecond {
+	flex:4;	
+	padding: 20px;
+	/*overflow: auto;*/
+}
+
+.btnContainer {	
+	margin: 15px;
+}
+
+.createBtn {
+	width: 120px;
+	height: 50px;
+}

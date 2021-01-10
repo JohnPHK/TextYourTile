@@ -1,0 +1,11 @@
+.header {
+  margin: 15px;
+  text-align: left;
+  border-bottom: 2px solid #848CB5;
+  color: #6B6B84;
+}
+
+.headerBox {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}

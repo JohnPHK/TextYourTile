@@ -1,0 +1,47 @@
+.mainMenu {	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.imgContainer {
+	align-self: center;
+}
+
+.profileImg {
+	background-color: #DBDDDF;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	flex: 1;	
+}
+
+.userProfile {
+	padding-bottom: 8px;
+	margin-top: 8px;
+	margin-bottom: 15px;
+	color: #DBDDDF;
+	border-bottom: 2px solid #DBDDDF;
+}
+
+.eachMenu {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	height: 30px;
+	color: #DBDDDF;
+	text-decoration: none;
+}
+
+.eachMenu:hover{
+	background-color: #392F31;
+}
+
+.eachMenuOn {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	height: 30px;
+	color: #DBDDDF;
+	background-color: #392F31;
+	text-decoration: none;
+
+}

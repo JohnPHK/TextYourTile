@@ -1,0 +1,27 @@
+.gridContainer {
+	display:flex;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.gridContent {
+	flex: 1;
+}
+
+.selectBtn {	
+	width: 200px;
+	height: 40px;
+}	
+
+.selectBtn:hover {
+	border:1px solid #36454F;
+}
+
+.selectBtn:focus {
+	background-color: #DBDDDF;
+	border:1px solid #36454F;
+}
+
+.selectOption {
+	background-color: #DBDDDF;
+}

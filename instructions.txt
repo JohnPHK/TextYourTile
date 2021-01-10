@@ -1,0 +1,14 @@
+Create a directory for databse. Recommend ``db``
+Thus,
+example.
+```
+mkdir db
+```
+Then, run.
+```
+mongodb --dbpath ./${Directory you named}
+```
+In my case,
+```
+mongodb --dbpath ./db
+```

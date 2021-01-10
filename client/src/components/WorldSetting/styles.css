@@ -1,0 +1,17 @@
+.deleteBtn {
+	height: 40px;
+	width: 100px;
+}
+
+.settingBtn {
+	height: 40px;
+	width: 70px;
+}
+
+.settingBtnContainer {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+

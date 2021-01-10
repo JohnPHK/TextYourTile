@@ -1,0 +1,10 @@
+.member_List {
+	margin: 5px;
+	height: 150px;
+	overflow: auto;
+	border: 2px solid #36454F;
+}
+
+.eachMember {	
+	margin: 10px;
+}

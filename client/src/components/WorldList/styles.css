@@ -1,0 +1,23 @@
+.outline {
+	/*border-style: solid;*/
+	/*border-color: black;*/
+    /*border-radius: 25px;*/
+    /*float: center;*/
+	/*width: 95%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*text-align: center;*/
+	height: 60%;
+	flex:5;
+	margin: 15px;
+	/*background-color: #DBDDDF;*/
+}
+
+.worldList {
+	height: 100%;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	overflow: auto;	
+}

@@ -1,0 +1,9 @@
+.textField {
+	width: 195px;
+	height: 40px;	
+}
+
+.textField:hover {
+	border:1px solid #36454F;
+	margin:1px;
+}

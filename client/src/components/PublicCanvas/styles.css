@@ -1,0 +1,21 @@
+
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+    width: 100px;
+    height: 40px;
+    background-color: #E5E7E9;
+    
+}
+
+.LinkButtons {
+    color: black;
+    min-width: 100px;
+    max-width: 100px;
+    
+    
+}
+

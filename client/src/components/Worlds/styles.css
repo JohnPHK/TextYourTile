@@ -1,0 +1,60 @@
+.world {
+	text-align: center;
+	height: 120px;
+	width: 250px;	
+	margin: 15px;
+	float: left;
+}
+
+.setting {
+	color: #0099A4;
+	margin-bottom: 3px;
+}
+
+.subName {
+	text-align: left;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #36454F;
+	color: #36454F;
+}
+
+.content {
+	color: #36454F;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.content .contentInfo {
+	flex: 1;
+}
+
+.content .btnContainer {
+	flex: 1;			
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content .btnContainer .goBtn {
+	flex: 1;
+	height: 50px;
+}
+
+button {
+	background: none;
+	outline: 0;
+	cursor: pointer;	
+	border: 1px solid #DBDDDF;
+	border-radius: 5%;
+}
+
+button:hover {
+	border:1px solid #36454F;
+	border-radius: 5%;	
+}
+
+.goBtn {
+	height: 30px;
+	width: 80px;
+}

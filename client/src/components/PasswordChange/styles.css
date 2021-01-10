@@ -1,0 +1,9 @@
+.changeBtnContainer {
+	margin: 10px;
+}
+
+.changeBtn {
+	margin: 5px;
+	width: 100px;
+	height: 30px;
+}

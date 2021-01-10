@@ -1,0 +1,143 @@
+.backBtn {
+	float:right;
+	color: #0099A4;
+	height: 30px;
+	width: 150px;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputSectionRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 420px;
+  width: 400px;
+  border: 1px;
+  border-style: groove;
+}
+
+.registerCompleteSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+  border: 1px;
+  border-style: groove;
+}
+
+.toLogin {
+  text-align: center;
+  text-decoration: none;
+  line-height: 100px;
+  color: #6B6B84;
+  
+}
+
+.userInput {
+  width:200px;
+}
+
+.formGroupRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+
+.loginSection {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px;
+  border-style: groove;
+  height: 100px;
+  width: 400px;
+}
+
+
+
+.login_page {  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+}
+
+.container {
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10%;
+  justify-self: center;
+}
+
+
+#toLogin {
+  text-align: center;
+  text-decoration: none;
+  line-height: 100px;
+  color: #6B6B84;
+}
+
+
+#welcome {
+  color: #6B6B84;
+  margin: 15px;
+}
+
+.loginNavigator {
+  position: relative;
+  border-bottom: 2px;
+  height: 80px;
+  width: 450px;
+  overflow: hidden;
+  background-color: #2E3A42;
+
+}
+
+.userInputDiv {
+  background-color: #DBDDDF;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 470px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.MuiButton-root.registerButton {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 50px;
+  background-color: #2E3A42;
+  color: #DBDDDF;
+  text-align: center;
+  font-size: 15px;
+}

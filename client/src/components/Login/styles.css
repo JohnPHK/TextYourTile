@@ -1,0 +1,125 @@
+html, body {
+  overflow: auto;
+}
+
+    
+
+.backBtn {
+	float:right;
+	color: #0099A4;
+	height: 30px;
+	width: 150px;
+	margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputSectionLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 400px;
+  border: 1px;
+  border-style: groove;
+
+}
+
+.userInput {
+  width: 200px;
+}
+
+.formGroupLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+
+.registerSection {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px;
+  border-style: groove;
+  height: 100px;
+  width: 400px;
+
+}
+
+
+
+.login_page {  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+}
+
+.container {
+  width: 450px;
+  height: 550px;
+  position: absolute;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10%;
+  justify-self: center;
+}
+
+#toRegister {
+  text-align: center;
+  text-decoration: none;
+  line-height: 100px;
+  color: #6B6B84;
+}
+
+
+#welcome {
+  color: #6B6B84;
+  margin: 15px;
+}
+
+
+.userInputDiv {
+  background-color: #DBDDDF;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 470px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.MuiButton-root.submitButton {
+  line-height: 2;
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: #2E3A42;
+  color: #DBDDDF;
+  text-align: center;
+  font-size: 15px;
+}
