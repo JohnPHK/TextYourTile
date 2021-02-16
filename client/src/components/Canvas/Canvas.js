@@ -98,7 +98,10 @@ class Canvas extends React.Component {
 
 
   componentDidMount() {
-    socket.on('update-canvas', tileData => tileCache = tileData)
+    socket.on('update-canvas', tileData => tileCache = tileData)  
+    // After connection established, exchaning the tile data with API through above.
+    // Here receives.
+    
     const body = document.querySelector('body')
     const canvas = document.getElementById('world')
     const ctx = canvas.getContext("2d");
@@ -259,6 +262,7 @@ class Canvas extends React.Component {
       cursor.lastMoved = performance.now();
 
       socket.emit('update', tileCache);
+      // Here sends
 
       Object.keys(tileCache).forEach(function(key) {
         let aTile = {

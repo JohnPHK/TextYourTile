@@ -49,13 +49,10 @@ io.sockets.on("connection",function(socket){
 
   socket.on('update', tileCache => {
     socket.broadcast.emit('update-canvas', tileCache); 
-    //This sends to everyone connected to the server except the senders:w
+    //This sends to everyone connected to the server except the senders
   });
     //listen to event at anytime (not only when endpoint is called)
     //execute some code here
-
-
-
 });
 
 const port = process.env.PORT || 9000;
