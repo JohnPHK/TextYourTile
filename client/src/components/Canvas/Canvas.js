@@ -71,7 +71,7 @@ function getTile(x, y) {
 }
 
 
-const ENDPOINT = 'https://textyourtileapi.herokuapp.com'
+const ENDPOINT = 'https://textyourtile.herokuapp.com'
 
 
 let socket = io(ENDPOINT, {transports: ['websocket']});
