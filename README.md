@@ -1,4 +1,4 @@
-# textyourtile_api
+# textyourtile
 This includes both server and client of the app. Previously deployed on heroku, it worked with very slow speed. However, decided to put down as there is lot of glitches with the app.
 
 If want to try out, you need Database, Mongodb. 
