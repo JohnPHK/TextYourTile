@@ -12,3 +12,7 @@ In my case,
 ```
 mongodb --dbpath ./db
 ```
+In the case for ubuntu
+```
+mongod --dbpath ./db
+```
