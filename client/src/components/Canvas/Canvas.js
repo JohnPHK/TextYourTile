@@ -71,10 +71,10 @@ function getTile(x, y) {
 }
 
 //Used right below when deployed to heroku. Howvever, will not add onto heroku anymore.
-//const ENDPOINT = 'https://textyourtile.herokuapp.com'
+const ENDPOINT = 'https://textyourtile.herokuapp.com'
 
 // Socket for local. Depending on the API's PORT of local use that.
-const ENDPOINT = "http://localhost:9000"
+//const ENDPOINT = "http://localhost:9000"
 
 
 
