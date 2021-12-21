@@ -1,3 +1,4 @@
+To run it locally:
 Create a directory for databse. Recommend ``db``
 Thus,
 example.
