@@ -15,9 +15,10 @@ const usersRouter = require('./routes/users')
 const adminsRouter = require('./routes/admins')
 const publicRouter = require('./routes/public')
 
-mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }) //have to write something after slash of local host 
-        .then(connect => console.log('connected to mongodb..'))
-        .catch(e => console.log('could not connect to mongodb', e))
+mongoose
+     .connect( uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+     .then(() => console.log( 'Database Connected' ))
+     .catch(err => console.log( err ));
 
 
 const db = mongoose.connection
