@@ -16,7 +16,7 @@ const adminsRouter = require('./routes/admins')
 const publicRouter = require('./routes/public')
 
 mongoose
-     .connect( uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+     .connect( process.env.MONGO_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
      .then(() => console.log( 'Database Connected' ))
      .catch(err => console.log( err ));
 
