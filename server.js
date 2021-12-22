@@ -16,6 +16,10 @@ const adminsRouter = require('./routes/admins')
 const publicRouter = require('./routes/public')
 
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }) //have to write something after slash of local host 
+        .then(connect => console.log('connected to mongodb..'))
+        .catch(e => console.log('could not connect to mongodb', e))
+
+
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
 db.once('open', () => console.log('Connected to Database')) //Once it is open claim that it is connected to the database
