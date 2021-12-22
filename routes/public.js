@@ -62,6 +62,7 @@ async function getTile(req, res, next) {
       return res.status(404).json({ message: 'Cannot find the tile' })
     }
   } catch (err) {
+    console.log("hello");
     return res.status(500).json({ message: err.message })
   }
 
