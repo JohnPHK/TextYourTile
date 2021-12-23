@@ -5,21 +5,21 @@
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "cheeseburger-menu": "0.0.13",
-    "concurrently": "^5.2.0",
+    "concurrently": "^6.5.1",
     "create-react-app": "^1.2.1",
     "express": "^4.17.1",
     "mdbreact": "^4.6.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.0",
     "react-sidebar": "^3.0.2",
     "socket.io-client": "^3.0.5",
-    "yargs": "^13.3.0"
+    "yargs": "^17.3.0"
   },
   "scripts": {
     "heroku-prebuild": "npm install && npm run build",
@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://textyourtile.herokuapp.com/"
+  "proxy": "http://localhost:9000"
 }
