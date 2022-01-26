@@ -71,10 +71,10 @@ function getTile(x, y) {
 }
 
 //Used right below when deployed to heroku. Howvever, will not add onto heroku anymore.
-const ENDPOINT = 'https://textyourtile.herokuapp.com'
+//const ENDPOINT = 'https://textyourtile.herokuapp.com'
 
 // Socket for local. Depending on the API's PORT of local use that.
-//const ENDPOINT = "http://localhost:9000"
+const ENDPOINT = "http://localhost:9000"
 
 
 
@@ -276,11 +276,13 @@ class Canvas extends React.Component {
         }
         let requestOptions = {
           method : 'POST', 
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 
+            'Content-Type': 'application/json'
+          },
           body: JSON.stringify(aTile)
         }
         
-        fetch('/public', requestOptions)
+        fetch(ENDPOINT + '/public', requestOptions)
         // below is not my code.
         // source: https://jasonwatmore.com/post/2020/02/01/react-fetch-http-post-request-examples
           .then(async response => {

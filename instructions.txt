@@ -7,13 +7,9 @@ mkdir db
 ```
 Then, run.
 ```
-mongodb --dbpath ./${Directory you named}
+mongod --dbpath ./${Directory you named}
 ```
 In my case,
-```
-mongodb --dbpath ./db
-```
-In the case for ubuntu
 ```
 mongod --dbpath ./db
 ```
