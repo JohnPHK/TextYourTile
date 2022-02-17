@@ -1,5 +1,4 @@
 # textyourtile
-Inspired by https://www.yourworldoftext.com/
 
 First to set up, create a directory for databse. Recommend ``db``
 Thus,
