@@ -15,19 +15,21 @@ You can decorate the tiles in the background with text as you want.
 It has real-time feature allowing you to see other people writing in real time (socket used).
 
 It also supports log-in feature.
-![](https://i.imgur.com/pTS9ZKQ.png)
+<img src="https://i.imgur.com/pTS9ZKQ.png" width=600 height=600>
 
-![](https://i.imgur.com/VfQJUlg.png)
+
+<img src="https://i.imgur.com/VfQJUlg.png" width=600 height=600>
 
 
 You can register to make an account
-![](https://i.imgur.com/WaXZlkt.png)
+<img src="https://i.imgur.com/WaXZlkt.png" width=600 height=600>
 
 
 Has personal page where you can create your own world etc...
-![](https://i.imgur.com/7v53Opf.png =600x600)
+<img src="https://i.imgur.com/7v53Opf.png" width=600 height=600>
 
-![](https://i.imgur.com/X9w0L5j.png)
+<img src="https://i.imgur.com/X9w0L5j.png" width=600 height=600>
+
 
 Link: https://textyourtile.herokuapp.com/
 
