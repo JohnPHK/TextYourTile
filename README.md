@@ -1,37 +1,31 @@
-# TextYourTile
+This is an MERN stack app with primary function of writing (text inputs) on the canvas. The canvas itself is shown as the entire window size. One can navigate around the canvas by click and drag and simply write any texts on the canvas. 
 
-First to set up, create a directory for databse. Recommend ``db``
-Thus,
-example.
-```
-mkdir db
-```
-Then, run.
-```
-mongodb --dbpath ./${Directory you named}
-```
-In my case,
-```
-mongodb --dbpath ./db
-```
-In the case for ubuntu
-```
-mongod --dbpath ./db
-```
+The website also contains login/sign-up feature where on can create personal canvas and impose personal configurations to the canvas.
+
+The website looks as follows:
+![](https://i.imgur.com/3NUr5pg.png =600x600)
 
 
-Then, install all the node modules necessary for client, and build.
-Run:
-```
-cd ./client
-npm install
-npm run build
-```
-Return to original directory, and run
-```
-cd ..
-npm install
-npm start
-```
-Client will be react front-end, the main directory will run server, backend.
+You can decorate the tiles in the background with text as you want.
+
+![](https://i.imgur.com/QDWPB3R.png =800x300)
+
+
+It has real-time feature allowing you to see other people writing in real time (socket used).
+
+It also supports log-in feature.
+![](https://i.imgur.com/pTS9ZKQ.png)
+
+![](https://i.imgur.com/VfQJUlg.png)
+
+
+You can register to make an account
+![](https://i.imgur.com/WaXZlkt.png)
+
+
+Has personal page where you can create your own world etc...
+![](https://i.imgur.com/7v53Opf.png =600x600)
+
+![](https://i.imgur.com/X9w0L5j.png)
+
 
