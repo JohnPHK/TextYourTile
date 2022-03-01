@@ -9,7 +9,7 @@ The website looks as follows:
 
 You can decorate the tiles in the background with text as you want.
 
-<img src="https://i.imgur.com/QDWPB3R.png" width=600 height=600>
+<img src="https://i.imgur.com/QDWPB3R.png" width=900 height=600>
 
 
 It has real-time feature allowing you to see other people writing in real time (socket used).
