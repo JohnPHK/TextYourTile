@@ -3,12 +3,13 @@ This is an MERN stack app with primary function of writing (text inputs) on the 
 The website also contains login/sign-up feature where on can create personal canvas and impose personal configurations to the canvas.
 
 The website looks as follows:
+
 <img src="https://i.imgur.com/3NUr5pg.png" width=600 height=600>
 
 
 You can decorate the tiles in the background with text as you want.
 
-![](https://i.imgur.com/QDWPB3R.png =800x300)
+<img src="https://i.imgur.com/QDWPB3R.png" width=600 height=600>
 
 
 It has real-time feature allowing you to see other people writing in real time (socket used).
