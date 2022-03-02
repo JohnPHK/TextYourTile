@@ -1,8 +1,7 @@
 # TextYourTile
 
   <img src="https://i.imgur.com/3NUr5pg.png" width=400 height=400>
-  <img src="https://i.imgur.com/pTS9ZKQ.png" width=400 height=400>
-  <img src="https://i.imgur.com/WaXZlkt.png" width=400 height=400>
+
 
 ## About
 
@@ -15,6 +14,9 @@ This is an MERN stack app with primary function of writing (text inputs) on the 
 
 ## To Register
 To register one must click on Hamburger Menu, then click on sign up. Enter the requested information in the register page then sign up. The email and password will be stored in our database built using mongodb.
+
+<img src="https://i.imgur.com/pTS9ZKQ.png" width=400 height=400>
+<img src="https://i.imgur.com/WaXZlkt.png" width=400 height=400>
 
 
 
