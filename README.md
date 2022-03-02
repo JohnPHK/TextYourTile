@@ -1,3 +1,4 @@
+#TextYourTile
 This is an MERN stack app with primary function of writing (text inputs) on the canvas. The canvas itself is shown as the entire window size. One can navigate around the canvas by click and drag and simply write any texts on the canvas. 
 
 The website also contains login/sign-up feature where on can create personal canvas and impose personal configurations to the canvas.
