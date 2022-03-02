@@ -13,9 +13,12 @@ This is an MERN stack app with primary function of writing (text inputs) on the 
   - real-time feature allowing you to see other people writing in real time (socket used).
 
 ## To Register
-To register one must click on Hamburger Menu, then click on sign up. Enter the requested information in the register page then sign up. The email and password will be stored in our database built using mongodb.
+To register one must click on Hamburger Menu, then click on sign up.
 
 <img src="https://i.imgur.com/pTS9ZKQ.png" width=400 height=400>
+
+Enter the requested information in the register page then sign up. It will ask for the desired username and password to be used by the user. These information will be stored in our database built using mongoDB
+
 <img src="https://i.imgur.com/WaXZlkt.png" width=400 height=400>
 
 
