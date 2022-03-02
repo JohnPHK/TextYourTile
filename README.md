@@ -1,11 +1,8 @@
 # TextYourTile
 
   <img src="https://i.imgur.com/3NUr5pg.png" width=400 height=400>
-
-<p float="left">
   <img src="https://i.imgur.com/pTS9ZKQ.png" width=400 height=400>
   <img src="https://i.imgur.com/WaXZlkt.png" width=400 height=400>
-<p>
 
 ## About
 
@@ -16,6 +13,8 @@ This is an MERN stack app with primary function of writing (text inputs) on the 
   - login/sign-up feature where on can create personal canvas and impose personal configurations to the canvas. 
   - real-time feature allowing you to see other people writing in real time (socket used).
 
+## To Register
+To register one must click on Hamburger Menu, then click on sign up. Enter the requested information in the register page then sign up. The email and password will be stored in our database built using mongodb.
 
 
 
