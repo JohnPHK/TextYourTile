@@ -1,9 +1,6 @@
 # TextYourTile
 
-<p float="left">
   <img src="https://i.imgur.com/3NUr5pg.png" width=400 height=400>
-  <img src="https://i.imgur.com/QDWPB3R.png" width=400 height=400>
-<p>
 
 <p float="left">
   <img src="https://i.imgur.com/pTS9ZKQ.png" width=400 height=400>
