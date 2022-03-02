@@ -1,16 +1,20 @@
 #TextYourTile
+
+<p float="left">
+  <img src="https://i.imgur.com/3NUr5pg.png" width=300 height=300>
+  <img src="https://i.imgur.com/QDWPB3R.png" width=300 height=300>
+<p>
+
+
+## About
+
 This is an MERN stack app with primary function of writing (text inputs) on the canvas. The canvas itself is shown as the entire window size. One can navigate around the canvas by click and drag and simply write any texts on the canvas. 
 
 The website also contains login/sign-up feature where on can create personal canvas and impose personal configurations to the canvas.
 
-The website looks as follows:
-
-<img src="https://i.imgur.com/3NUr5pg.png" width=600 height=600>
-
 
 You can decorate the tiles in the background with text as you want.
 
-<img src="https://i.imgur.com/QDWPB3R.png" width=900 height=600>
 
 
 It has real-time feature allowing you to see other people writing in real time (socket used).
