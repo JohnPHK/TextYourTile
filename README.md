@@ -25,5 +25,3 @@ Enter the requested information in the register page then sign up. It will ask f
 
 
 
-Link: https://textyourtile.herokuapp.com/
-
