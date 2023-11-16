@@ -21,7 +21,23 @@ Enter the requested information in the register page then sign up. It will ask f
 
 <img src="https://i.imgur.com/WaXZlkt.png" width=400 height=400>
 
+## Quick Start
+To quick start, we first need to have backend service running.
 
-
-
-
+First run the following command to install required node modules:
+```
+npm install
+```
+Then, in the current root directory run the start the backend application:
+```
+npm start
+```
+Then, change directory to ./client/ by running ``cd ./client/``. Then, install the required modules by running the following
+```
+npm install
+```
+Then start the front-end application:
+```
+npm start
+```
+The application at UI level (front-end) must be running locally through ``localhost:3000`` and back-end server must be running locally through ``localhost:9000``
